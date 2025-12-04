@@ -1,0 +1,48 @@
+/* zauzima cjelu visinu stranice*/
+/*html, body {
+
+text-align: center;
+}*/
+
+.centar{
+  text-align: center;
+}
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222;
+    color: white;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222;
+  color: white;
+}

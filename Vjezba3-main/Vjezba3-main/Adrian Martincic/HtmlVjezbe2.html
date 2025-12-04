@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<html>
+
+    <head>
+
+        <title>Vjezbe2</title>
+        <nav>
+
+        <h1>lOGO</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </head>
+
+        <body>
+            
+
+            <h1 style="text-align: center;"> Moje ime je: Adrian Martincic</h1>
+            <hr>
+            <p style="text-align: center;"> ovaj video je širine 400Spx</p>
+
+            <div style="text-align: center;">
+            <video width="400px" autoplay>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            </div>
+
+            <hr>
+            <p><i>Registracija studenta:</i> ova forma će se poslati na "registracija.php" metodom post</p>
+
+            <form action="https://symlink.dk/code/php/submit/" method="post">
+                Status:
+                <br>
+                <input name="rad" type="radio" value="redovni" id="redovni"><labe>Redovni Student</labe>
+                <br>
+                <input name="rad" type="radio" value="izvanredni" id="izvanredni"><labe>Izvaredni Student</labe>
+                <br>
+                <br>
+
+                Email:
+                <br>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                <br>
+                <br>
+
+                Lozinka:
+                <br>
+                <input type="password" id="lozinka" name="lozinka">
+                <br>
+                <br>
+
+                <label for="boja">Odaberi završenu srednju školu</label>
+                <br>
+                <select id="skola" name="skola">
+                <option value="">odaberi srednju skolu</option>
+                <option value="gimnazija">Gimnazija</option>
+                <option value="tehnicka">Tehnička</option>
+                <option value="ekonomska">Ekonomksa</option>
+                <option value="medicinksa">Medicinska</option>
+                </select>
+                <br>
+                <br>
+
+                <input type="checkbox" id="uvjeti" name="uvjeti" required><labe>Prihvačam uvjete korištenja</labe>
+                <br>
+                <br>
+                <input type="submit" value="Potvrda">
+                <hr>
+                <br>
+            </form>
+        </body>
+
+    <footer>
+
+        <section id="contact">
+            <h2><b>Contact</b></h2>
+            <p>Email: martincicadrian@gmial.com</p>
+        </section>
+
+        <p>&copy; 2025 Adrian Martincic. All rights reserved.</p>
+        
+    </footer>
+
+</html>
